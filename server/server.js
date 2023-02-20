@@ -1,5 +1,5 @@
 const app = require('./app');
-require("dotenv").config({path:'./config/config.env'});
+require("dotenv").config();
 const connectDB = require('./config/DbConnection');
 
 // configuring the port
